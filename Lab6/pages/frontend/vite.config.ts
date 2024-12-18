@@ -27,7 +27,7 @@ const manifestForPlugin: Partial<VitePWAOptions> = {
 };
 
 export default defineConfig({
-    base: "/frontend",
+    base: "/WEBF",
     plugins: [
         react(),
         tsconfigPaths(),

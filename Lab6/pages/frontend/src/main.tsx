@@ -7,7 +7,7 @@ import {store} from "src/store/store.ts";
 import {Provider} from "react-redux";
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
-    <BrowserRouter basename="/frontend">
+    <BrowserRouter basename="/WEBF">
         <Provider store={store} >
             <App />
         </Provider>
